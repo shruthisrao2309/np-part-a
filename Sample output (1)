@@ -1,0 +1,25 @@
+[CNLAB@localhost Gayu]$ ./a.out
+
+ enter bucket size : 500
+
+ enter output rate :100
+
+ enter number of packets coming at second 1 :150
+
+ enter 1 to contiue or 0 to quit..........1
+
+ enter number of packets coming at second 2 :200
+
+ enter 1 to contiue or 0 to quit..........2
+
+ enter number of packets coming at second 3 :150
+
+ enter 1 to contiue or 0 to quit..........0
+
+ Second 	 Recieved 	 Sent 	 Dropped 	Remained 
+  1 		150	  	100	  	 0	 50 
+  2 		200	  	100	  	 0	 150 
+  3 		150	  	100	  	 0	 200 
+  4 		0	  	100	  	 0	 100 
+  5 		0	  	100	  	 0	 0 
+

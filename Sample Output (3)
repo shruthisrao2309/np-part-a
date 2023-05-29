@@ -1,0 +1,19 @@
+[CNLAB@localhost Gayu]$ cc bitstuff.c 
+[CNLAB@localhost Gayu]$ ./a.out
+Enter the number of bits of the message
+9
+Enter the bits
+0
+1
+1
+1
+1
+1
+1
+1
+0
+The length is: 26
+The frame is
+01111110011111011001111110
+Reciever side message is:011111110[CNLAB@localhost Gayu]$ 
+                   

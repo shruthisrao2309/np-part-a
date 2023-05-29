@@ -1,0 +1,29 @@
+[CNLAB@localhost Gayu]$ cd CRC/
+[CNLAB@localhost CRC]$ ls
+crc.c
+[CNLAB@localhost CRC]$ cc crc.c 
+[CNLAB@localhost CRC]$ ./a.out
+enter the polynomial
+1011
+generating polynomial is 100000111
+modified t[u] is 101100000000
+checksum is :00110001
+final codeword is :101100110001
+test error detection 0(yes)1(no)?:
+0
+enter position where error has to be inserted
+3
+errorneous data 100100110001
+error detected
+[CNLAB@localhost CRC]$ ./a.out
+enter the polynomial
+1011
+generating polynomial is 100000111
+modified t[u] is 101100000000
+checksum is :00110001
+final codeword is :101100110001
+test error detection 0(yes)1(no)?:
+1
+error is not detected
+[CNLAB@localhost CRC]$ 
+
